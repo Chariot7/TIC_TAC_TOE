@@ -1,0 +1,40 @@
+body {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(248, 244, 244);
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+button {
+    align-items: center;
+}
+#replay {
+    align-items: center;
+    color: blueviolet;
+    padding: 20px;
+}
+
+.row {
+    display: inline-grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 5px;
+    background-color: violet;
+    padding: 5px; 
+    margin: 50px;
+    border: 50px;
+  
+    
+  }
+  .col-4 {
+    
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    height: 20vmin;
+    height: 100px;
+    width: 100px;
+  }
