@@ -1,40 +1,59 @@
 body {
     align-items: center;
     text-align: center;
-    background-color: rgb(248, 244, 244);
+    background-color: black
 }
 h1 {
     text-align: center;
     padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bored {
+    border: 4px solid white;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 button {
     align-items: center;
+
 }
 #replay {
     align-items: center;
-    color: blueviolet;
+    color: white;
+    font-size: 15px;
     padding: 20px;
+    margin: 20px;
 }
 
-.row {
+.board {
     display: inline-grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
     gap: 5px;
-    background-color: violet;
-    padding: 5px; 
-    margin: 50px;
-    border: 50px;
+    background-color:white;
+    /* padding: 5px;  */
+    /* margin: 50px; */
+    /* border: 50px; */
   
     
   }
-  .col-4 {
-    
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 5px;
-    font-size: 15px;
+  .sq {
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 0px 0px 10px 0px;
+    font-size: 90px;
     text-align: center;
-    height: 20vmin;
+   
     height: 100px;
     width: 100px;
+  }
+
+  button {
+      background-color: black;
+      color: white;
   }

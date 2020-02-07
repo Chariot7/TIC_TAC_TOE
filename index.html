@@ -9,21 +9,22 @@
     <script defer src="js/main.js"></script>
 </head>
 <body>
-    <h1>Tic-Tac-Toe!</h1>
+    <h1>TIC-TAC-TOE!</h1>
+    <h2></h2>
     <div class="container">
-        <div class="row">
-            <button class="col-4" id="1"></button>
-            <button class="col-4" id="2"></button>
-            <button class="col-4" id="3"></button>
-            <button class="col-4" id="4"></button>
-            <button class="col-4" id="5"></button>
-            <button class="col-4" id="6"></button>
-            <button class="col-4" id="7"></button>
-            <button class="col-4" id="8"></button>
-            <button class="col-4" id="9"></button>
+        <div id="bored" class="board">
+            <button class="sq" id="0"></button>
+            <button class="sq" id="1"></button>
+            <button class="sq" id="2"></button>
+            <button class="sq" id="3"></button>
+            <button class="sq" id="4"></button>
+            <button class="sq" id="5"></button>
+            <button class="sq" id="6"></button>
+            <button class="sq" id="7"></button>
+            <button class="sq" id="8"></button>
         </div>        
     </div>
-    <button id="replay">Play Again</button>
+    <button onClick="window.location.reload();" id ="replay">Play Again</button>
         </body>
 </html>
 
